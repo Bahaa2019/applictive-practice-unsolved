@@ -6,7 +6,14 @@ import { data } from "../data/data";
 
 export function getAsteroidDataByName(data, asteroidName) {
   // Your code goes here...
+  // with find Method( ) you can call the object itslef outof the array 
+      return  data.asteroids.find((aster) => {
+          return aster.name  ===  asteroidName  ; 
+      })
+     
 }
+
+console.log(getAsteroidDataByName(data, ' 6 Hebe' ));
 
 
 

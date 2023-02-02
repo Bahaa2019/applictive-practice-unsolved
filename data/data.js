@@ -19,7 +19,7 @@ export const data = {
         'Setebos',   'Stephano', 'Trinculo',
         'Francisco', 'Margaret', 'Ferdinand',
         'Perdita',   'Mab',      'Cupid'
-      ]
+      ]          
     },
     {
       id: 'neptune',
